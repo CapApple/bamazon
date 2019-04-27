@@ -42,7 +42,7 @@ In this project, I created an Amazon-like storefront with node.js and MySQL. Thi
 ### Demo of the app in use
 
     ![bamazon customer view](https://github.com/CapApple/bamazon/blob/master/screenshots/bamazonCustomer.gif)
-    ![bamazon customer view](https://github.com/CapApple/bamazon/blob/master/screenshots/bamazonCustomer.gif)
+    ![bamazon customer view](https://github.com/CapApple/bamazon/blob/master/screenshots/bamazonCustomer.png)
 
 
 - - -

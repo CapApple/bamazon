@@ -39,7 +39,9 @@ In this project, I created an Amazon-like storefront with node.js and MySQL. Thi
     * [inquirer](https://www.npmjs.com/package/inquirer)
     * [console.table](https://www.npmjs.com/package/console.table)
 
-### Screenshots of the app running
+### Demo of the app in use
+
+    ![bamazon customer view gif](https://github.com/CapApple/bamazon/screenshots/bamazonCustomer.png)
 
 
 - - -

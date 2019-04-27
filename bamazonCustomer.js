@@ -43,7 +43,7 @@ function sale() {
             {
                 type: "input",
                 name: "quantity",
-                message: "How many of them would like to buy?\n"
+                message: "How many of them would you like to buy?\n"
             }
         ]).then(function (answer) {
             // find out the item in the database
@@ -57,7 +57,18 @@ function sale() {
             // check stock 
             if(chosenItem.stock_quantity < parseInt(answer.quantity)){
                 console.log("Insufficient quantity!\n");
-                sale();
+                // sale();
+                inquirer.prompt([
+                    {
+                        type: "input",
+                        name: "anykey",
+                        message: "Press enter to start over.\n"
+                    }
+                ]).then(function(keypress){
+                    if (keypress.anykey === ""){
+                        sale();
+                    }
+                })
             }
             // update sql
             else{

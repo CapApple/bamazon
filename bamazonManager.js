@@ -127,7 +127,7 @@ function addToInventory(){
             {
                 type: "input",
                 name: "id",
-                message: "Which product do you want to add inventory?(select ID)"
+                message: "Which product do you want to add inventory?(type in ID)"
             },
             {
                 type: "input",

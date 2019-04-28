@@ -49,9 +49,7 @@ In this project, I created an Amazon-like storefront with node.js and MySQL. Thi
 
 ### How the app works:
 
-Running this application will:
-
-* List a set of menu options:
+1. Running this application will list a set of menu options:
 
 * View Products for Sale
     
@@ -61,12 +59,20 @@ Running this application will:
     
 * Add New Product
 
-  * If a manager selects `View Products for Sale`, the app should list every available item: the item IDs, names, prices, and quantities.
+2. * If a manager selects `View Products for Sale`, the app should list every         available item: the item IDs, names, prices, and quantities.
 
-  * If a manager selects `View Low Inventory`, then it should list all items with an inventory count lower than five.
+   * If a manager selects `View Low Inventory`, then it should list all items with an inventory count lower than five.
 
-  * If a manager selects `Add to Inventory`, your app should display a prompt that will let the manager "add more" of any item currently in the store.
+   * If a manager selects `Add to Inventory`, your app should display a prompt that will let the manager "add more" of any item currently in the store.
 
-  * If a manager selects `Add New Product`, it should allow the manager to add a completely new product to the store.
+   * If a manager selects `Add New Product`, it should allow the manager to add a completely new product to the store.
+
+### How I made the app:
+
+Made some changes based on bamazonCustomer.js. (Using the same MySQL table and node pacakges.)
+
+### Demo of the app in use:
+
+![Alt text](https://github.com/CapApple/bamazon/blob/master/screenshots/bamazonManager.gif)
 
 - - -

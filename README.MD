@@ -1,6 +1,6 @@
 # Bamazon-node-app
 
-In this project, I created an Amazon-like storefront with node.js and MySQL. This contains three individual apps. The basic app (bamazonCustomer.js) will take in orders from customers and deplete stock from the store's inventory. The bamazonManager.js and bamazonSupervisor.js will provide more functions for magagers and supervisors such as viewing low inventory and viewing performance of departments. 
+In this project, I created an Amazon-like storefront with node.js, Inquirer package and MySQL. This contains three individual apps. The basic app (bamazonCustomer.js) will take in orders from customers and deplete stock from the store's inventory. The bamazonManager.js and bamazonSupervisor.js will provide more functions for magagers and supervisors such as viewing low inventory and viewing performance of departments. 
 
 
 ## App #1: Customer View (bamazonCustomer.js)
